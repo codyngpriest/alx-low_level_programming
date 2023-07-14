@@ -11,3 +11,5 @@
 # This is a program that prints the alphabet in lowercase, followed by a new line. Except q and e.
 5. Numbers
 #  This is a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+6. Numberz
+# This is a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
