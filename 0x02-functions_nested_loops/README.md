@@ -9,3 +9,5 @@
 # This is a function that checks for lowercase character.
 4. isalpha
 # This is  a function that checks for alphabetic character. 
+5. Sign
+# This is a function that prints the sign of a number.
