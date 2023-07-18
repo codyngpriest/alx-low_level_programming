@@ -42,6 +42,8 @@ void print_to_98(int n);
 /* print the n times table starting from 0 */
 void print_times_table(int n);
 
+/* computes and prints the sum of multiples of 3 and 5 */
+int main(void);
 
 
 
