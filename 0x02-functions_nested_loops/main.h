@@ -39,5 +39,10 @@ int add(int, int);
 /* prints all natural numbers from n to 98, followed by a new line */
 void print_to_98(int n);
 
+/* print the n times table starting from 0 */
+void print_times_table(int n);
+
+
+
 
 #endif /* MAIN_H */
