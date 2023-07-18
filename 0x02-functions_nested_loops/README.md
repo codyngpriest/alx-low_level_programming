@@ -7,3 +7,5 @@
 # This is a function that prints 10 times the alphabet, in lowercase, followed by a new line.
 3. islower
 # This is a function that checks for lowercase character.
+4. isalpha
+# This is  a function that checks for alphabetic character. 
