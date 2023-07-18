@@ -45,6 +45,8 @@ void print_times_table(int n);
 /* computes and prints the sum of multiples of 3 and 5 */
 int main(void);
 
+/* prints the first 50 Fibunacci numbers */
+int main(void);
 
 
 #endif /* MAIN_H */
