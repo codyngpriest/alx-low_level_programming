@@ -5,3 +5,5 @@
 # This is a function that prints the alphabet, in lowercase, followed by a new line.
 2. 10 x alphabet
 # This is a function that prints 10 times the alphabet, in lowercase, followed by a new line.
+3. islower
+# This is a function that checks for lowercase character.
