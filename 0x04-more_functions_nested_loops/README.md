@@ -15,3 +15,9 @@
 # This is a function that draws a straight line in the terminal.
 7. I feel like I am diagonally parked in a parallel universe
 # This is a function that draws a diagonal line on the terminal.
+8. You are so much sunshine in every square inch
+# This is a function that prints a square, followed by a new line.
+
+
+
+
