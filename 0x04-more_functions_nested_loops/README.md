@@ -21,5 +21,6 @@
 # This is a program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
 10. Triangles
 # This is a function that prints a triangle, followed by a new line.
-
+11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic
+# The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081. This is a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
 
