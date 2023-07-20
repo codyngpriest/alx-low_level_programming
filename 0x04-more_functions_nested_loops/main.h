@@ -42,5 +42,8 @@ void print_triangle(int size);
 /* finds and prints the largest prime factor */
 int main(void);
 
+/* prints an integer */
+void print_number(int n);
+
 
 #endif /* MAIN_H */
