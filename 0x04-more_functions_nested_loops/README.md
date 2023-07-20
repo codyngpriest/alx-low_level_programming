@@ -25,5 +25,3 @@
 # The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081. This is a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
 12. Numbers have life; they're not just symbols on paper
 # This is a function that prints an integer.
-3. Leap year
-# This is a program that converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration.
