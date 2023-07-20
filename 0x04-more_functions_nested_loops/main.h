@@ -45,5 +45,7 @@ int main(void);
 /* prints an integer */
 void print_number(int n);
 
+/* Leap year */
+void print_remaining_days(int month, int day, int year);
 
 #endif /* MAIN_H */
