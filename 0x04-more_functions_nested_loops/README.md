@@ -7,3 +7,5 @@
 # This is a function that multiplies two integers.
 3. The numbers speak for themselves
 # This is a function that prints the numbers, from 0 to 9, followed by a new line.
+4. I believe in numbers and signs
+# This is a function that prints the numbers, from 0 to 9, followed by a new line.
