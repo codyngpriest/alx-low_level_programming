@@ -5,3 +5,5 @@
 # This is a function that checks for a digit (0 through 9).
 2. Collaboration is multiplication
 # This is a function that multiplies two integers.
+3. The numbers speak for themselves
+# This is a function that prints the numbers, from 0 to 9, followed by a new line.
