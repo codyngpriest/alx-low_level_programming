@@ -21,4 +21,7 @@ void print_numbers(void);
 /* prints numbers from 0 to 9 */
 void print_most_numbers(void);
 
+/* prints 10 times the numbers 0 to 14 */
+void more_numbers(void);
+
 #endif /* MAIN_H */
