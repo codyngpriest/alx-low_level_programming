@@ -36,5 +36,7 @@ void print_square(int size);
 /* prints numbers from 1 to 100 but with Fizz, Buzz */
 int main(void);
 
+/* prints a triangle */
+void print_triangle(int size);
 
 #endif /* MAIN_H */
