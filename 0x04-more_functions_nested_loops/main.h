@@ -33,5 +33,8 @@ void print_diagonal(int n);
 /* prints a square */
 void print_square(int size);
 
+/* prints numbers from 1 to 100 but with Fizz, Buzz */
+int main(void);
+
 
 #endif /* MAIN_H */
