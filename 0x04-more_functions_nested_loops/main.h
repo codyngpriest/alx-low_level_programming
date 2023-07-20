@@ -24,4 +24,7 @@ void print_most_numbers(void);
 /* prints 10 times the numbers 0 to 14 */
 void more_numbers(void);
 
+/* draws a straight line in the terminal */
+void print_line(int n);
+
 #endif /* MAIN_H */
