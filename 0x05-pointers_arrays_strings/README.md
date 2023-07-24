@@ -9,3 +9,5 @@
 # This is a function that prints a string, followed by a new line, to stdout. 
 4. I can only go one way. I've not got a reverse gear
 # This is a function that prints a string, in reverse, followed by a new line.
+5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
+# This is a function that reverse a string 
