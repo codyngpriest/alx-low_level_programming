@@ -17,3 +17,5 @@
 # This is a function that prints half of a string, followed by a new line.
 8. Arrays are not Pointers
 # This is a function that prints n elements of an array of integers, followed by a new line
+9. strcpy
+# This is a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.

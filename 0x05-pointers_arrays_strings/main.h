@@ -33,4 +33,8 @@ void puts_half(char *str);
 /* prints n elements of an array of integers */
 void print_array(int *a, int n);
 
+/* copies the string pointed to by src */
+char *_strcpy(char *dest, char *src);
+
+
 #endif /* MAIN_H */
