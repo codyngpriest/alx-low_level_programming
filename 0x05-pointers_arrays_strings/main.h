@@ -9,5 +9,8 @@ int _putchar(char c);
 /* takes a pointer of an int and updates the value it points to 98 */
 void reset_to_98(int *n);
 
+/* swaps the values of two integers */
+void swap_int(int *a, int *b);
+
 
 #endif /* MAIN_H */
