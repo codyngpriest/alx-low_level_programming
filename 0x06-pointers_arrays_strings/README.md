@@ -11,3 +11,5 @@
 # This is a function that reverses the content of an array of integers.
 5. Always look up
 # This is a function that changes all lowercase letters of a string to uppercase.
+6. Expect the best. Prepare for the worst. Capitalize on what comes
+# This is a function that capitalizes all words of a string.
