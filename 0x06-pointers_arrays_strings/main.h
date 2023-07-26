@@ -38,6 +38,9 @@ void print_number(int n);
 /* prints a[2] = 98 */
 int main(void);
 
+/* adds two numbers */
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
 
 
 #endif /* MAIN_H */
