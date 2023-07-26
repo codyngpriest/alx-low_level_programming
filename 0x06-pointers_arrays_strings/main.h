@@ -9,6 +9,8 @@ int _putchar(char c);
 /* concatenates two strings */
 char *_strcat(char *dest, char *src);
 
+/* concatenates two strings */
+char *_strncat(char *dest, char *src, int n);
 
 
 #endif /* MAIN_H */
