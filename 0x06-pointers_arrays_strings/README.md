@@ -17,3 +17,5 @@
 # This is a function that encodes a string into 1337.
 8. rot13
 # This is a function that encodes a string using rot13.
+9. Numbers have life; they're not just symbols on paper
+# This is a function that prints an integer.
