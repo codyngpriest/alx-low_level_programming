@@ -5,3 +5,5 @@
 # This is a function that concatenates two strings.
 2. strncpy
 # This is a function that copies a string.
+3. strcmp
+# This is a function that compares two strings
