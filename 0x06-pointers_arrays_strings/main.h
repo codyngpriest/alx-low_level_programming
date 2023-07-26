@@ -1,12 +1,11 @@
-#ifndef MAIN_H
-#define MAIN_H
-
+#ifndef MAIN_H 
+#define MAIN_H 
 #include <unistd.h>
 
-/* prints a single character to stdout */
-int _putchar(char c);
 
-/* concatenates two strings */
+/* prints a single character to stdout */ 
+int _putchar(char c); 
+/* concatenates two strings */ 
 char *_strcat(char *dest, char *src);
 
 /* concatenates two strings */
@@ -35,6 +34,9 @@ char *rot13(char *str);
 
 /* prints an integer */
 void print_number(int n);
+
+/* prints a[2] = 98 */
+int main(void);
 
 
 
