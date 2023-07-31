@@ -11,5 +11,7 @@ char *_memset(char *s, char b, unsigned int n);
 /* copies memory area */
 char *_memcpy(char *dest, char *src, unsigned int n);
 
+/* locates a charater in a string */
+char *_strchr(char *s, char c);
 
 #endif /* MAIN_H */
