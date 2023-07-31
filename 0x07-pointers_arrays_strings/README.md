@@ -13,3 +13,5 @@
 # This is a function that locates a substring.
 6. Chess is mental torture
 # This is a function that prints the chessboard.
+7. The line of life is a ragged diagonal between duty and desire
+# This is a function that prints the sum of the two diagonals of a square matrix of integers.
