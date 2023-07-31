@@ -9,3 +9,5 @@
 # This is a function that gets the length of a prefix substring.
 4. strpbrk
 # This is a function that searches a string for any of a set of bytes.
+5. strstr
+# This is a function that locates a substring.
