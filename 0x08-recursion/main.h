@@ -22,4 +22,12 @@ int factorial(int n);
 /* returns the value x to the power y */
 int _pow_recursion(int x, int y);
 
+/* returns the nataural square root of a number */
+int _sqrt_recursion(int n);
+
+/* helps prints natural square root */
+int sqrt_helper(int n, int guess);
+
+
+
 #endif /* MAIN_H */
