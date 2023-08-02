@@ -45,4 +45,7 @@ int is_palindrome_helper(char *s, int start, int end);
 int _strlen(char *s);
 
 
+/* compares the identity of two strings */
+int wildcmp(char *s1, char *s2);
+
 #endif /* MAIN_H */
