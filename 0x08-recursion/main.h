@@ -28,6 +28,12 @@ int _sqrt_recursion(int n);
 /* helps prints natural square root */
 int sqrt_helper(int n, int guess);
 
+/* returns 1 for prime numbers otherwise 0 */
+int is_prime_number(int n);
+
+/* helps print prime numbers */
+int is_divisible(int n, int i, int limit);
+
 
 
 #endif /* MAIN_H */
