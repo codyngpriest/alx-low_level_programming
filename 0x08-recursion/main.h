@@ -35,5 +35,14 @@ int is_prime_number(int n);
 int is_divisible(int n, int i, int limit);
 
 
+/* returns 1 for a palindrome otherwise 0 */
+int is_palindrome(char *s);
+
+/* helps check if a string is a palindrome */
+int is_palindrome_helper(char *s, int start, int end);
+
+/* calculates the length of a string */
+int _strlen(char *s);
+
 
 #endif /* MAIN_H */
