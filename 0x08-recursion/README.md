@@ -7,3 +7,5 @@
 # This is a function that returns the length of a string.
 3. You mustn't be afraid to dream a little bigger, darling
 # This is a function that returns the factorial of a given number.
+4. Once an idea has taken hold of the brain it's almost impossible to eradicate
+# This is a function that returns the value of x raised to the power of y.
