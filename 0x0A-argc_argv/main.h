@@ -1,6 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#define bool int
+#define true 1
+#define false 0
+
+
 #include <unistd.h>
 
 int _putchar(char c);
@@ -16,5 +21,10 @@ int main(int argc, char *argv[]);
 
 int str_to_int(char *str);
 void print_number(int num);
+
+bool is_digit(char *str);
+
+
+
 
 #endif /* MAIN_H */
