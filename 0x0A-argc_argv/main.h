@@ -5,6 +5,8 @@
 #define true 1
 #define false 0
 
+#include <stdio.h>
+#include <stdlib.h>
 
 #include <unistd.h>
 
@@ -23,6 +25,9 @@ int str_to_int(char *str);
 void print_number(int num);
 
 bool is_digit(char *str);
+
+int min_coins(int cents);
+
 
 
 
