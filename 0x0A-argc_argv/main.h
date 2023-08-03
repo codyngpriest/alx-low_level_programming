@@ -11,4 +11,8 @@ int _write(int file_descriptor, const char *buffer, unsigned int size);
 int main(__attribute__((unused)) int argc, char *argv[]);
 
 
+/* prints all arguments it receives */
+int main(int argc, char *argv[]);
+
+
 #endif /* MAIN_H */
