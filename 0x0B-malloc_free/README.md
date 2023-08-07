@@ -5,3 +5,5 @@
 # This is a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
 2. He who is not courageous enough to take risks will accomplish nothing in life
 # This is a function that concatenates two strings
+3. If you even dream of beating me you'd better wake up and apologize
+# This is a function that returns a pointer to a 2 dimensional array of integers.
