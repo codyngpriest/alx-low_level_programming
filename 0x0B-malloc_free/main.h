@@ -20,4 +20,7 @@ char *str_concat(char *s1, char *s2);
 /* returns a pointer to a 2 dimentional array of ints */
 int **alloc_grid(int width, int height);
 
+/* frees a 2 dimensional grid previously created by your alloc_grid function */
+void free_grid(int **grid, int height);
+
 #endif /* MAIN_H */
