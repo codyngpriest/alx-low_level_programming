@@ -11,3 +11,6 @@
 # This is a function that frees a 2 dimensional grid previously created by your alloc_grid function.
 5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe
 # This is a function that concatenates all the arguments of your program
+6. I will show you how great I am
+# This is a function that splits a string into words.
+

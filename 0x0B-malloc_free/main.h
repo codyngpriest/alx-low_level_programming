@@ -3,6 +3,7 @@
 
 #include <unistd.h>
 #include <stdlib.h>
+#include <string.h>
 
 
 /* prints a single character to stdout */
@@ -26,6 +27,8 @@ void free_grid(int **grid, int height);
 /* concatenates all arguments of a program */
 char *argstostr(int ac, char **av);
 
-
+/* splits a string into words */
+char **strtow(char *str);
+int count_words(char *str);
 
 #endif /* MAIN_H */
