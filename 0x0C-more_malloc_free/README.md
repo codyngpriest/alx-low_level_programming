@@ -3,3 +3,5 @@
 # This is a function that allocates memory using malloc
 1. string_nconcat
 # This is a function that concatenates two strings
+2. _calloc
+# This is a function that allocates memory for an array, using malloc
