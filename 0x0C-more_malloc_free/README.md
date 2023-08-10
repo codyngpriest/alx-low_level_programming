@@ -9,3 +9,5 @@
 # This is a function that creates an array of integers
 4. _realloc
 # This is a function that reallocates a memory block using malloc and free
+5. We must accept finite disappointment, but never lose infinite hope
+# This is a program that multiplies two positive numbers
