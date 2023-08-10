@@ -16,4 +16,7 @@ void *_calloc(unsigned int nmemb, unsigned int size);
 /* creates an arry of ints */
 int *array_range(int min, int max);
 
+/* reallocates a memory block using malloc and free */
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+
 #endif /* MAIN_H */

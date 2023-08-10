@@ -7,3 +7,5 @@
 # This is a function that allocates memory for an array, using malloc
 3. array_range
 # This is a function that creates an array of integers
+4. _realloc
+# This is a function that reallocates a memory block using malloc and free
