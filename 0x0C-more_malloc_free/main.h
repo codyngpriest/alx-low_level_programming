@@ -13,6 +13,7 @@ unsigned int string_length(const char *str);
 /* allocates memory for an array using malloc */
 void *_calloc(unsigned int nmemb, unsigned int size);
 
-
+/* creates an arry of ints */
+int *array_range(int min, int max);
 
 #endif /* MAIN_H */
