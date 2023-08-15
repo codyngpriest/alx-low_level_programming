@@ -8,3 +8,5 @@
 # This is a function that initialize a variable of type struct dog
 2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad
 # This is a function that prints a struct dog
+3. Outside of a dog, a book is a man's best friend. Inside of a dog it's too dark to read
+# This is a new type dog_t as a new name for the type struct dog
