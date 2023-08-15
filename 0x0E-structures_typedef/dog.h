@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+#include <stddef.h>
 
 /**
  * struct dog - defines information about a dog
@@ -16,5 +16,10 @@ char *name;     /* Name of the dog */
 float age;      /* Age of the dog */
 char *owner;    /* Owner of the dog */
 };
+
+/* function prototypes */
+
+/* Initializes a function prototype struct dog */
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif /* MAIN_H */
