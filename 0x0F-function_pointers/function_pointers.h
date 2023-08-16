@@ -12,5 +12,9 @@ void print_square(int num);
 void print_cube(int num);
 int _putchar(char c);
 
+/* searches for an integer */
+int int_index(int *array, int size, int (*cmp)(int));
+int compare_positive(int num);
+int compare_even(int num);
 
 #endif /* FUNCTION_POINTERS_H */
