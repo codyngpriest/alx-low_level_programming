@@ -2,3 +2,7 @@
 
 0. 0
 This is a function that converts a binary number to an unsigned int.
+
+1. 1
+This is a function that prints the binary representation of a number.
+

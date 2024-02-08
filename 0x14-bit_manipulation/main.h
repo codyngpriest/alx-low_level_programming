@@ -6,7 +6,12 @@
 
 /* converts a binary number to an unsigned int */
 unsigned int binary_to_uint(const char *b);
+
+/* prints a char to stdout */
 int _putchar(char c);
+
+/* prints the binary representation of a number */
+void print_binary(unsigned long int n);
 
 
 #endif
