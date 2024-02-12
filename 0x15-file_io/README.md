@@ -8,3 +8,6 @@ This is a function that creates a file.
 
 2. Speak gently, she can hear
 This is a function that appends text at the end of a file.
+
+3. cp
+This is a program that copies the content of a file to another file.
