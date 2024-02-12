@@ -20,3 +20,6 @@ This a function that returns the number of bits you would need to flip to get fr
 
 6. Endianness
 This is a function that checks the endianness.
+
+7. Crackme3
+Find the password!
