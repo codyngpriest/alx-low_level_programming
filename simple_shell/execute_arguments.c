@@ -16,9 +16,8 @@ return (1);
 
 if (strcmp(args[0], "exit") == 0)
 {
-/* Print error message for "exit" command */
-printf("./shell: No such file or directory\n");
-return (1);
+/* Exit the shell */
+exit(EXIT_SUCCESS);
 }
 
 /* Check if the command is being piped into the shell */

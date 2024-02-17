@@ -11,3 +11,6 @@ Implement handle command line with arguments
 
 3. Simple shell 0.3
 This implementation handles PATH
+
+4. Simple shell 0.4
+This implemnts the exit build-in, that exits the shell
