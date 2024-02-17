@@ -8,3 +8,6 @@ This is a basic UNIX command line interpreter
 
 2. Simple shell 0.2
 Implement handle command line with arguments
+
+3. Simple shell 0.3
+This implementation handles PATH
