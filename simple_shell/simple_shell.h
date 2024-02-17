@@ -30,5 +30,7 @@ int execute_arguments(char **args);
 int execute_piped_command(char **args);
 void execute_process(char **args);
 
+/*---Builtin func---*/
+int own_env(char **args);
 
 #endif

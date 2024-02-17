@@ -6,35 +6,27 @@
  *
  * Return: 1 on success, 0 otherwise.
  */
+
 int execute_arguments(char **args)
 {
 if (args[0] == NULL)
 {
-/* Empty command */
-return (1);
+/* Empty command was entered */
+return (-1);
 }
 
+/* Check if the command is "exit" */
 if (strcmp(args[0], "exit") == 0)
 {
-/* Exit the shell */
 exit(EXIT_SUCCESS);
 }
 
-/* Check if the command is being piped into the shell */
-if (!isatty(STDIN_FILENO))
+/* Check if the command is a builtin */
+if (strcmp(args[0], "env") == 0)
 {
-execute_piped_command(args);
-return (0);
-}
-
-/* Execute the command by forking a new process */
-execute_process(args);
-
-/* Print the custom shell prompt if not piped */
-if (isatty(STDIN_FILENO))
-{
-fflush(stdout);
-}
+own_env(args);
 return (1);
+}
+return (0);
 }
 

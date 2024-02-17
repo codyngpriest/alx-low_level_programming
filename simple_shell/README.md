@@ -13,4 +13,7 @@ Implement handle command line with arguments
 This implementation handles PATH
 
 4. Simple shell 0.4
-This implemnts the exit build-in, that exits the shell
+This implements the exit build-in, that exits the shell
+
+5. Simple shell 1.0
+This implememts env built-in that prints the current environment

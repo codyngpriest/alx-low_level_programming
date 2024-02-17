@@ -10,7 +10,7 @@ char *line, **args;
 int status;
 size_t bufsize = 0;
 do {
-printf("#cisfun$ ");
+printf("$ ");
 if (getline(&line, &bufsize, stdin) == -1)
 {
 if (feof(stdin))
