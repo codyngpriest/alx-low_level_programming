@@ -1,5 +1,16 @@
 #include "simple_shell.h"
 
+
+/**
+ * tokenize - splits a line into tokens
+ * @line: the line to tokenize
+ * @tokens: the tokens tokenize
+ *
+ * Return: void
+ */
+
+void tokenize(const char *line, char **tokens);
+
 /**
  * split_line - Splits a string into tokens.
  * @line: The string to be split.
@@ -14,17 +25,16 @@ int position = 0;
 int i;
 char **new_tokens;
 char **tokens = malloc(bufsize * sizeof(char *));
-char *token;
+/* char *token; */
 if (!tokens)
 {
 fprintf(stderr, "Allocation error\n");
 exit(EXIT_FAILURE);
 }
 /* Tokenize line */
-token = strtok(line, TOK_DELIM);
-while (token != NULL)
+tokenize(line, tokens);
+while (tokens[position] != NULL)
 {
-tokens[position] = token;
 position++;
 if (position >= bufsize)
 {
@@ -43,8 +53,7 @@ new_tokens[i] = tokens[i];
 free(tokens);
 tokens = new_tokens;
 }
-token = strtok(NULL, TOK_DELIM);
 }
-tokens[position] = NULL;
 return (tokens);
 }
+

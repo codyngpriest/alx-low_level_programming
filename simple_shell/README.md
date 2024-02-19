@@ -20,3 +20,6 @@ This implememts env built-in that prints the current environment
 
 6. Simple shell 0.1.1
 This is an implementation of a custom getline function
+
+7. Simple shell 0.2.1
+This is implementation of a custom strtok for tokenization
