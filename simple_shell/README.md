@@ -23,3 +23,6 @@ This is an implementation of a custom getline function
 
 7. Simple shell 0.2.1
 This is implementation of a custom strtok for tokenization
+
+8. Simple shell 0.4.1
+This handles arguments for the built-in exit
