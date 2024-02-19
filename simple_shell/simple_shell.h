@@ -15,6 +15,7 @@
 #define TOK_DELIM " \t\r\n\a"
 #define INITIAL_BUFFER_SIZE 64
 #define BUFFER_INCREMENT 64
+#define BUFFER_SIZE 1024
 
 extern char **environ;
 
@@ -29,6 +30,10 @@ char **split_line(char *line);
 int execute_arguments(char **args);
 int execute_piped_command(char **args);
 void execute_process(char **args);
+
+
+/*---Custom_getline.c---*/
+char *custom_getline(void);
 
 /*---Builtin func---*/
 int own_env(char **args);

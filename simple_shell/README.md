@@ -17,3 +17,6 @@ This implements the exit build-in, that exits the shell
 
 5. Simple shell 1.0
 This implememts env built-in that prints the current environment
+
+6. Simple shell 0.1.1
+This is an implementation of a custom getline function
