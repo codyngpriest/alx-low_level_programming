@@ -35,7 +35,7 @@ char *read_line(void);
 char **split_line(char *line);
 int execute_arguments(char **args);
 int execute_piped_command(char **args);
-void execute_process(char **args);
+int execute_process(char **args);
 void parse_input(char *input, char **args);
 void tokenize(const char *line, char **tokens);
 
@@ -46,6 +46,7 @@ char *custom_getline(void);
 int own_env(char **args);
 int own_setenv(char **args);
 int own_unsetenv(char **args);
-
+int own_exit(char **args);
+int own_cd(char **args);
 
 #endif

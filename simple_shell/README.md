@@ -29,3 +29,6 @@ This handles arguments for the built-in exit
 
 9. setenv, unsetenv
 This implememts the setenv and unsetenv built-in commands
+
+10. cd
+This is an implementation of the built-in command cd

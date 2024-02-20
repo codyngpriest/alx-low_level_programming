@@ -6,7 +6,7 @@
  *
  * Return: void
  */
-void execute_process(char **args)
+int execute_process(char **args)
 {
 /* Fork a new process */
 pid_t pid = fork();
@@ -33,5 +33,6 @@ do {
 waitpid(pid, &status, WUNTRACED);
 } while (!WIFEXITED(status) && !WIFSIGNALED(status));
 }
+return (0);
 }
 
