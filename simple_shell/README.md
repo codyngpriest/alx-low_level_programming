@@ -26,3 +26,6 @@ This is implementation of a custom strtok for tokenization
 
 8. Simple shell 0.4.1
 This handles arguments for the built-in exit
+
+9. setenv, unsetenv
+This implememts the setenv and unsetenv built-in commands

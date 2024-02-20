@@ -17,6 +17,12 @@
 #define BUFFER_INCREMENT 64
 #define BUFFER_SIZE 1024
 
+#define MAX_ARGS 64
+#define MAX_ARG_LENGTH 256
+
+#define MAX_TOKENS 64
+#define MAX_TOKEN_LENGTH 32
+
 extern char **environ;
 
 
@@ -30,12 +36,16 @@ char **split_line(char *line);
 int execute_arguments(char **args);
 int execute_piped_command(char **args);
 void execute_process(char **args);
-
+void parse_input(char *input, char **args);
+void tokenize(const char *line, char **tokens);
 
 /*---Custom_getline.c---*/
 char *custom_getline(void);
 
 /*---Builtin func---*/
 int own_env(char **args);
+int own_setenv(char **args);
+int own_unsetenv(char **args);
+
 
 #endif

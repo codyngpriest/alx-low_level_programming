@@ -2,16 +2,6 @@
 
 
 /**
- * tokenize - splits a line into tokens
- * @line: the line to tokenize
- * @tokens: the tokens tokenize
- *
- * Return: void
- */
-
-void tokenize(const char *line, char **tokens);
-
-/**
  * split_line - Splits a string into tokens.
  * @line: The string to be split.
  *

@@ -10,15 +10,14 @@ char *read_line(void)
 {
 char *line = NULL;
 size_t bufsize = 0;
+ssize_t nread;
 
-/* Read a line from stdin */
-if (getline(&line, &bufsize, stdin) == -1)
+nread = getline(&line, &bufsize, stdin);
+if (nread == -1)
 {
-/* Handle end-of-file condition (Ctrl+D) */
 if (feof(stdin))
 {
-free(line);
-printf("\n");
+/* End of file (Ctrl+D) encountered */
 exit(EXIT_SUCCESS);
 }
 else
@@ -26,6 +25,12 @@ else
 perror("read_line");
 exit(EXIT_FAILURE);
 }
+}
+
+/* Remove newline character, if present */
+if (line[nread - 1] == '\n')
+{
+line[nread - 1] = '\0';
 }
 
 return (line);
