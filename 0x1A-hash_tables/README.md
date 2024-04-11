@@ -21,3 +21,6 @@ This is a function that retrieves a value associated with a key.
 5. >>> print(ht)
 This is a function that prints a hash table.
 
+6. >>> del ht
+This is a function that deletes a hash table.
+
