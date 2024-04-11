@@ -12,3 +12,6 @@ This is a hash function implementing the djb2 algorithm.
 2. key -> index
 This a function that gives you the index of a key.
 
+3. >>> ht['betty'] = 'cool'
+This is a function that adds an element to the hash table.
+
