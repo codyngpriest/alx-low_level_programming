@@ -15,3 +15,6 @@ This a function that gives you the index of a key.
 3. >>> ht['betty'] = 'cool'
 This is a function that adds an element to the hash table.
 
+4. >>> ht['betty']
+This is a function that retrieves a value associated with a key.
+
