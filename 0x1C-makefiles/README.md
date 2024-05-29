@@ -62,3 +62,6 @@ You are not allowed to have a list of all the .o files
 
 5. Island Perimeter
 This is a function def island_perimeter(grid): that returns the perimeter of the island described in grid:
+
+6. make -f 100-Makefile
+
