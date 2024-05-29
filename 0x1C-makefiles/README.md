@@ -59,3 +59,6 @@ The all rule should recompile only the updated source files
 The clean, oclean, fclean, re rules should never fail
 
 You are not allowed to have a list of all the .o files
+
+5. Island Perimeter
+This is a function def island_perimeter(grid): that returns the perimeter of the island described in grid:
