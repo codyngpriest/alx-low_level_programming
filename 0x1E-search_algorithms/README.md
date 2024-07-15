@@ -35,6 +35,9 @@ This is a function that searches for a value in a sorted array of integers using
 10. Exponential search
 This is a function that searches for a value in a sorted array of integers using the Exponential search algorithm
 
+11. Advanced binary search
+This is a function that searches for a value in a sorted array of integers.
+
 
 
 
