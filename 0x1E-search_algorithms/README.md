@@ -32,6 +32,9 @@ What is the time complexity (average case) of a jump search in an array of size 
 9. Interpolation search
 This is a function that searches for a value in a sorted array of integers using the Interpolation search algorithm
 
+10. Exponential search
+This is a function that searches for a value in a sorted array of integers using the Exponential search algorithm
+
 
 
 
