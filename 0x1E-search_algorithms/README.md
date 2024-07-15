@@ -26,6 +26,9 @@ What is the space complexity of this function / algorithm?
 7. Jump search
 This is a function that searches for a value in a sorted array of integers using the Jump search algorithm
 
+8. Big O #5
+What is the time complexity (average case) of a jump search in an array of size n, using step = sqrt(n)?
+
 
 
 
