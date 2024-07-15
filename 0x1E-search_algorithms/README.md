@@ -47,6 +47,9 @@ Please define the following data structure in your search_algos.h header file:
 14. Big O #6
 What is the time complexity (average case) of a jump search in a singly linked list of size n, using step = sqrt(n)?
 
+15. Big O #7
+What is the time complexity (average case) of a jump search in a skip list of size n, with an express lane using step = sqrt(n)?
+
 
 
 
