@@ -19,3 +19,6 @@ What is the time complexity (worst case) of a binary search in an array of size 
 
 5. Big O #3
 What is the space complexity (worst case) of a binary search in an array of size n?
+
+6. Big O #4
+What is the space complexity of this function / algorithm?
