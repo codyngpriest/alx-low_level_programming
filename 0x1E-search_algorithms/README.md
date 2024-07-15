@@ -38,6 +38,9 @@ This is a function that searches for a value in a sorted array of integers using
 11. Advanced binary search
 This is a function that searches for a value in a sorted array of integers.
 
+12. Jump search in a singly linked list
+Please define the following data structure in your search_algos.h header file:
+
 
 
 
