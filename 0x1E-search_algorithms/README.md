@@ -44,6 +44,9 @@ Please define the following data structure in your search_algos.h header file:
 13. Linear search in a skip list
 Please define the following data structure in your search_algos.h header file:
 
+14. Big O #6
+What is the time complexity (average case) of a jump search in a singly linked list of size n, using step = sqrt(n)?
+
 
 
 
